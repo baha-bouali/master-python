@@ -29,7 +29,9 @@ greet()
 ````
 
 >> Before the func
+
 >> HELLO
+
 >> After the func
 
 ## The '@' syntax (syntactic sugar)
@@ -77,9 +79,9 @@ sum_function(5, 3)
 
 
 ````
-|| Calling add with (3, 5), {}
+>> Calling add with (3, 5), {}
 
-|| add returned 8
+>> 8
 
 
 
