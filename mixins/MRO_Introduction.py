@@ -23,6 +23,7 @@ D().hello()
 # which is determined by the C3 linearization algorithm. 
 # D(B, c) means the MRO is an ordered queue of classes
 # which is D -> B -> C -> A -> object. 
+# By the way the order follows the parameters order. D(B, C) means B is before C in the MRO.
 
 # Here is the chronological order of method calls:
 # 1. D().hello() is called, which prints "D" and calls super
